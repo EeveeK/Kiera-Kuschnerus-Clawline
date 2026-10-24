@@ -1,0 +1,2 @@
+First Struggle is that I previously did movement by updating Hornet's position. This is now interfering with my physics based jumping.
+I need to rework the movement so it works based on physics. This will be difficult and could set me back.
