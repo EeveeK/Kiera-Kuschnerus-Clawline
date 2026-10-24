@@ -9,3 +9,5 @@ the value seems to get stored and result in extreme upwards movement.
 I stopped the storing of upward movement but it didn't fix the issue of Hornet flying off into the sky. 
 I realized it was because I was spamming the jump button and I had never coded it to not double jump. 
 I will attempt to add some sort of ground detection feature. 
+
+Solved with this simple bit of code!: if (hornetRb.linearVelocityY != 0) return;
