@@ -11,3 +11,5 @@ I realized it was because I was spamming the jump button and I had never coded i
 I will attempt to add some sort of ground detection feature. 
 
 Solved with this simple bit of code!: if (hornetRb.linearVelocityY != 0) return;
+
+Starting work on the hook hang feature. Drew a Hook to use since I don't think primitives work well for that. Really avoiding working on making clawline bi directional.
