@@ -15,3 +15,7 @@ Solved with this simple bit of code!: if (hornetRb.linearVelocityY != 0) return;
 Starting work on the hook hang feature. Drew a Hook to use since 
 I don't think primitives work well for that. 
 Really avoiding working on making clawline bi directional.
+
+Made Hook hang feature where you can either jump or clawline again to get out of the hook. I ended up also reworking the clawline to instatntiate and destroy instead of being there permanently. The clawline being in the player all the time was messing with the hook collisions. That took an unexpectedly large amount of time to rework.
+
+I will again leave the bi directional clawline for a different date. 
